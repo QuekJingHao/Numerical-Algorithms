@@ -1,4 +1,4 @@
-# Numerical Algoritms
+# Numerical Algorithms
 
 #### -- Project Status: [Active / On-Hold]
 
@@ -21,9 +21,12 @@ The repository contains the following directories:
 
 1) Operator Split
 
+The Operator-Split method is a typical numerical method used in quantum mechanics.
 
 
 2) JFNK
+
+The 
 
 
 
