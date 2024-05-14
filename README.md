@@ -26,7 +26,7 @@ The Operator-Split method is a typical numerical method used in quantum mechanic
 
 ### 2) JFNK
 
-The Jacobian-Free Newtwon-Krylov method is tpyically used to solve a system of nonlinear equations, where the variables are strongly coupled. Typically, one needs to compute the Jacobian matrix. However, this cannot be done analytically for a large system of equations. Hence, the JFNK algorithm allows one to compute the solution vector by exploiting the Krylov subspace method. One application of the JFNK algorithm is solving for the pressure and temperature fiields in a nuclear reactor. 
+The Jacobian-Free Newtwon-Krylov (JFNK) method is tpyically used to solve a system of nonlinear equations, where the variables are strongly coupled. Typically, one needs to compute the Jacobian matrix. However, this cannot be done analytically for a large system of equations. Hence, the JFNK algorithm allows one to compute the solution vector by exploiting the Krylov subspace method. One application of the JFNK algorithm is solving for the pressure and temperature fiields in a nuclear reactor. 
 
 
 
