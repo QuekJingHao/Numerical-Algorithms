@@ -1,6 +1,7 @@
 .vscode/
 .vs/
 x64/
+.ipynb_checkpoints/
 
 *.sln
 *.vcxproj

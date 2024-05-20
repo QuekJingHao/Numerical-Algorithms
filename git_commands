@@ -7,3 +7,6 @@ git push -u origin main
 
 git rm -r --cached 3_Neutron_Fission/
 
+
+git rm -r --cached 3_Neutron_Fission/2_Py/.ipynb_checkpoints/Py_Driver-checkpoint
+git rm -r --cached 3_Neutron_Fission/2_Py/.ipynb_checkpoints/Py_Main-checkpoint
