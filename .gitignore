@@ -1,8 +1,16 @@
-.vscode
-.ipynb_checkpoints
+.vscode/
+.vs/
+x64/
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
 1_Operator_Split/1_Main/Main
 1_Operator_Split/1_Main/Rubbish
 1_Operator_Split/3_Test
 
-git_commands
+Eigen/
+
+git_commands.txt

@@ -5,3 +5,5 @@ git remote add origin https://github.com/QuekJingHao/Numerical-Algorithms.git
 git branch -M main
 git push -u origin main
 
+git rm -r --cached 3_Neutron_Fission/
+

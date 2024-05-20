@@ -30,7 +30,11 @@ The Jacobian-Free Newtwon-Krylov (JFNK) method is tpyically used to solve a syst
 
 
 
-### 3) Neutron Fission
+### 3) Neutron Diffusion
+
+Solve the neutron diffusion equation of a fissioning nuclear weapon numerically, using the Foward-Time Centered-Space (FTCS) scheme. 
 
 Ongoing project. 
+
+
 
