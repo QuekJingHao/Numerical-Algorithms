@@ -19,6 +19,6 @@ x64/
 Eigen/
 
 # Ignore individual files
-git_commands.txt
+git_commands
 
 
