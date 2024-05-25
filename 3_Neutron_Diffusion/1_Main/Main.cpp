@@ -39,17 +39,22 @@ using namespace Eigen;
 int main() {
 
 
-
 	// Declarations for FTCS scheme
-	double R = 1;              // Radius of the bomb core
-	double T = 1.0;                 // Total time of simulation
+	double R = 1;              // Radius of the bomb core in meters
 	int Nr = 100;                    // Radial grid size
-	int Nt = 100;                              // Temporal grid size i.e. number of iterations
+	int Nt = 100;                              // Number of iterations
 
-	double tau = T / static_cast<double>(Nt);               // Radial grid spacing
-	double h = R / static_cast<double>(Nr);                  // Time step 
+	double h = R / static_cast<double>(Nr);     // Radial grid size
 
-	std::cout << h << '\n';
+	// The time step tau, is related to the radial size via a equation
+	double r_min = h;
+	double tau = (r_min / (4.0 * beta)) * sqrt((4.0 * beta) / alpha);
+
+
+	double T = tau * Nt; // Total time of simulation
+
+	std::cout << "Choice of tau : " << tau << '\n';
+
 
 
 
@@ -75,6 +80,10 @@ int main() {
 	/*      FTCS Scheme                                                      */
 	/*-----------------------------------------------------------------------*/
 
+	/*
+	
+	
+	
 	// Before the first iteration, we set the solution vector with initial conditions
 	N = N_initial;
 	for (int j = 1; j < Nt - 1; j++) {
@@ -90,14 +99,12 @@ int main() {
 
 			N_update(i) = N(i) + c1 * N(i + 1) + c2 * N(i) + c3 * N(i - 1);
 
-			std::cout << N_update(i) << '\n';
-
 		}
 
 		// After each iteration, set the solution vector with the updated values
 		N = N_update;
 
-	}	
+	}	*/
 
 	/*
 	// Print out the final values of the solution vector
